@@ -21,7 +21,7 @@ New-StoredCredential -Target HomeAssistant -UserName [server address] -Password 
 ```
 *note: the server address should be in the full URL format (i.e. "https://my.homeassisantserver.com")*
 
-*another note: "a [long-lived access token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token) can be created using the UI tool located at the bottom of the user's Home Assistant profile page")*
+*another note: "a [long-lived access token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token) can be created using the UI tool located at the bottom of the user's Home Assistant profile page"*
 
 5. Run the script! You can run from a Powershell prompt, or by right-clicking and selecting *Run*.
 
