@@ -19,7 +19,7 @@ Instructions:
 Install-Module CredentialManager
 New-StoredCredential -Target HomeAssistant -UserName [server address] -Password [API token] -Type Generic -Persist LocalMachine
 ```
-*note: the server address should be in the full URL format (i.e. "https://my.homeassisantserver.com")*
+*note: the server address should be in the full URL format (i.e. "https://my.homeassisantserver.com", "https://jibberish.ui.nabu.casa", "https://192.168.1.255:8123", etc.) **without** a trailing slash*
 
 *another note: "a [long-lived access token](https://developers.home-assistant.io/docs/auth_api/#long-lived-access-token) can be created using the UI tool located at the bottom of the user's Home Assistant profile page"*
 
